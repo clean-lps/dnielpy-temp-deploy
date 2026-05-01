@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Aqua Remodeling LLC</title>
+    <script>
+      // GitHub Pages SPA redirect trick.
+      // Encodes the current path into a query param so index.html can restore it.
+      var l = window.location;
+      l.replace(
+        l.protocol +
+          "//" +
+          l.hostname +
+          (l.port ? ":" + l.port : "") +
+          "/?p=" +
+          encodeURIComponent(
+            l.pathname.slice(1) +
+              (l.search ? "&q=" + encodeURIComponent(l.search.slice(1)) : "") +
+              l.hash
+          )
+      );
+    </script>
+  </head>
+  <body></body>
+</html>
