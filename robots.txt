@@ -1,5 +1,8 @@
 User-agent: *
 Allow: /
+Disallow: /login
+Disallow: /dashboard
+Disallow: /admin
+Disallow: /legal/
 
-# Sitemaps
-Sitemap: https://www.powerliftrentals.com/sitemap.xml
+Sitemap: https://clean-lps.github.io/dnielpy-temp-deploy/sitemap.xml
