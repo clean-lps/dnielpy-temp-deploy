@@ -1,8 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /login
-Disallow: /dashboard
-Disallow: /admin
-Disallow: /legal/
 
-Sitemap: https://clean-lps.github.io/dnielpy-temp-deploy/sitemap.xml
+Sitemap: https://clarityglaze.com/sitemap.xml
