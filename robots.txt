@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /login
+Disallow: /dashboard
+Disallow: /admin
 
-Sitemap: https://clarityglaze.com/sitemap.xml
+Sitemap: https://miamijoyeria.com/sitemap.xml
